@@ -25,7 +25,7 @@ public class Node
     /// <summary>
     /// fCost is a heuristic that we use to select the next node in the closed set.
     /// </summary>
-    public float fCost { get { return gCost + hCost; } } // Dijkstra?
+    public float fCost { get { return gCost + hCost; } }
 
     public Node(Vector3Int worldPos, bool walkable)
     {
